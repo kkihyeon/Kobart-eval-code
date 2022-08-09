@@ -5,7 +5,7 @@
 
 에 그래서 rouge척도를 기반으로 kobart 자연어 처리 모델을 평가하는 코드를 설명드리려 합니다.
 kobart모델에 대해 학습한 모델에 대하여 평가를 진행할 때 rouge_metric.py를 이용하시게 될 것 같습니다.
-rouge_metric.py는 KoBART-summarization게시글을 참고하거나 SKT에서 올려주신 KoBART게시글을 참고하셔서 코드를 얻으시기 바랍니다.
+rouge_metric.py는 seujung님의 KoBART-summarization게시글을 참고하거나 SKT에서 올려주신 KoBART게시글을 참고하셔서 코드를 얻으시기 바랍니다.
 그냥 제가 올려드리겠습니다.
 
 rouge_metric.py내 소스 코드를 보면 전체적으로 Rouge클래스가 있고 클래스 내 여러 함수로 이루어져 있는 것을 확인할 수 있습니다.
